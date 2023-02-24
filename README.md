@@ -31,8 +31,9 @@ Go to **Administration > Operations > Services** and create a service with Name 
 •	Go to Administration > Site Development > Open Commerce API Settings \
 •	Select Type: Data \
 •	Select Context: Global \
-•	Settings for default client id (Change the client id if required). \
+•	Settings for default client id (Change the client id if required). 
 
+```
 {
     "_v":"21.3",
     "clients":[
@@ -66,6 +67,7 @@ Go to **Administration > Operations > Services** and create a service with Name 
         }
     ]
 }
+```
 
 
 
