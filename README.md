@@ -8,7 +8,7 @@ To use this cartridge upload it in your current code version and update the cart
     Go to Administration > Sites > Manage Sites > Business Manager – Settings and enter the name of your cartridge.
 Now head over to the Administration > Organization > Roles > Administrator - Business Manager Modules section. Given that the cartridge was uploaded successfully to the active version, and you have done the above step then you will be able to see Custom preference storage inside this Search Custom preference by Id and Click on the update button at the bottom right to update the modules for the current site context.
 Now if you refresh the business manager once you will be able to see the updated module in the Merchant Tool section. 
-2.Setting up the services 
+## 2.Setting up the services 
 We need to configure the services for ocapi configuration. One is for getting an access token to access the resources. The second service will get all the preference group, and the third service is used to get all preference id with respect to group id and the last one for preference name.
 
 a)	Setting service for an access token: - Go to Administration > Operations > Services > Credentials, and create a new credential set the Name field to Create_token set the URL field https://account.demandware.com/dw/oauth2/access_token?client_id=f6c42b70-d247-4ff8-a1ab-65c90c1379ac&client_secret=f6c42b70-d247-4ff8-a1ab-65c90c1379ac&grant_type=client_credentials
@@ -25,7 +25,7 @@ Go to Administration > Operations > Services and create a service with Name getP
 d)	Setting service for preference Name: - 
 Go to Administration > Operations > Services and create a service with Name getPreferenceName, set Type to HTTP, set Enable, and set Service Mode to Live. 
 
-3.OCAPI settings in BM:
+## 3.OCAPI settings in BM:
 •	Go to Administration > Site Development > Open Commerce API Settings
 •	Select Type: Data
 •	Select Context: Global
