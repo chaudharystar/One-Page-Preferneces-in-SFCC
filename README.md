@@ -5,7 +5,7 @@ It is used to build a one page view of the site’s preferences within a SFCC in
 # Prerequisites
 ## 1.Set the cartridge path:
 To use this cartridge upload it in your current code version and update the cartridge path in the business manager as follows.\
-    Go to Administration > Sites > Manage Sites > Business Manager – Settings and enter the name of your cartridge.
+    Go to **Administration > Sites > Manage Sites > Business Manager – Settings** \ and enter the name of your cartridge.
 Now head over to the Administration > Organization > Roles > Administrator - Business Manager Modules section. Given that the cartridge was uploaded successfully to the active version, and you have done the above step then you will be able to see Custom preference storage inside this Search Custom preference by Id and Click on the update button at the bottom right to update the modules for the current site context.
 Now if you refresh the business manager once you will be able to see the updated module in the Merchant Tool section. 
 ## 2.Setting up the services 
