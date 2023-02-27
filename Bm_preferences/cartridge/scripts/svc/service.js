@@ -34,7 +34,7 @@ function getPreferenceGroup(BearerToken) {
             svc.addHeader('Content-Type', 'application/json');
             svc.addHeader('Accept', 'application/json');
             svc.addHeader('Authorization', BearerToken);
-            svc.addHeader('x-dw-client-id', 'f6c42b70-d247-4ff8-a1ab-65c90c1379ac')
+            svc.addHeader('x-dw-client-id', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
            
         },
         parseResponse: function (svc, response) {
@@ -78,7 +78,7 @@ function getPreferenceName(groupId,preferenceId,BearerToken) {
             svc.addHeader('Content-Type', 'application/json');
             svc.addHeader('Accept', 'application/json');
             svc.addHeader('Authorization', BearerToken);
-            svc.addHeader('x-dw-client-id', 'f6c42b70-d247-4ff8-a1ab-65c90c1379ac')
+            svc.addHeader('x-dw-client-id', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
            
         },
         parseResponse: function (svc, response) {
